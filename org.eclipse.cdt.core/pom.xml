@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.github.mhoffrog.attached</groupId>
+		<artifactId>attach-3rdparty-jar-parent</artifactId>
+		<version>1.0</version>
+		<relativePath>../attach-3rdparty-jar-parent</relativePath>
+	</parent>
+	<artifactId>org.eclipse.cdt.core</artifactId>
+	<version>5.11.0</version>
+	<packaging>jar</packaging>
+	<build>
+		<plugins>
+			<!-- Enforce to check existence of the 3rd-party jar expected. -->
+			<!-- Note: Configuration is inherited from the parent pom. -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-enforcer-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>
