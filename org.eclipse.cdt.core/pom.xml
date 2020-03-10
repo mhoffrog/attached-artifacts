@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.github.mhoffrog.attached</groupId>
 		<artifactId>attach-3rdparty-jar-parent</artifactId>
-		<version>1.0</version>
+		<version>1.1</version>
 		<relativePath>../attach-3rdparty-jar-parent</relativePath>
 	</parent>
 	<artifactId>org.eclipse.cdt.core</artifactId>
