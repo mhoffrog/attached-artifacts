@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.github.mhoffrog.attached</groupId>
+		<groupId>de.mhoffrogge.attached</groupId>
 		<artifactId>attach-3rdparty-jar-parent</artifactId>
 		<version>1.1</version>
 		<relativePath>../attach-3rdparty-jar-parent</relativePath>
